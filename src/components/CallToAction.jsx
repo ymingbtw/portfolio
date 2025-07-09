@@ -1,9 +1,9 @@
 export default function CallToAction() {
   return (
     <div>
-      <button className="text-blue-500 font-bold hover:cursor-pointer">
+      <a className="text-blue-600" href="/Chhoem-Eming-Resume.pdf" download>
         Get My Resume
-      </button>
+      </a>
     </div>
   );
 }
